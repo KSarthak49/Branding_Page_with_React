@@ -1,3 +1,5 @@
+import "../App.css";
+
 const HeroSection = () => {
   return (
     <main className="hero container">
@@ -10,8 +12,8 @@ const HeroSection = () => {
         </p>
 
         <div className="hero-btn">
-          <button >Shop Now </button>
-          <button className="secondary-btn" >Category</button>
+          <button className="L">Shop Now </button>
+          <button className="L"  >Category</button>
         </div>
 
         <div className="shopping">

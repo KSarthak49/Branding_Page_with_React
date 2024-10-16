@@ -11,9 +11,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+.L:hover{
+  color: rgb(12, 9, 175);
+  background-color: rgb(139, 10, 156);
+}
 button {
-  all: unset;
+ all: unset;
   padding: 6px 16px;
   background: var(--red);
   height: 32px;
@@ -66,11 +69,11 @@ nav ul {
 .hero-btn button {
   font-size: 24px;
 }
-.secondary-btn {
+/* .secondary-btn {
   background: transparent;
   color: var(--gray);
   border: 1px solid gray;
-}
+} */
 
 .shopping p {
   font-size: 14px;
